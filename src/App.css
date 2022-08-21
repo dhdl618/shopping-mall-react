@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+.logo-area {
+    display: flex;
+    justify-content: center;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.icon{
+    padding-top: 5px;
+}
+.login-area {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    transition: 0.2s;
+}
+.login-area:hover {
+    filter: brightness(0.9);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-btn {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu-container{
+    display: flex;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.menu{
+    color: rgb(92, 92, 92);
+    font-weight: bold;
+    padding-left: 150px;
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+}
+.menu li{
+    padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-container {
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+.input{
+    padding-left: 10px;
+    width: 125px;
+    border: none;
+}
+.input:focus{
+    outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+    margin: 40px 10px 0px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+.login-sec-container{
+    width: 400px;
+    text-align: center;
+    border: 2px solid gray;
+    margin-top: 150px;
+    padding: 60px 60px 40px 60px;
+    border-radius: 10px;
+}
+
+.login-info {
+    margin-bottom: 15px;
+}
+.login-input {
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.login-input:focus {
+    outline: none;
+}
+.do-login{
+    border: none;
+    background-color: rgb(41, 116, 228);
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+}
+.login-footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-func{
+    color: gray;
+    margin-top: 25px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-func:hover{
+    cursor: pointer;
+}
+.func2 {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.product-detail-container{
+    margin-top: 50px;
+}
+.product-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.product-choice{
+    font-weight: bold;
+    color: gray;
+}
+.product-new{
+    font-weight: bold;
+    color: rgb(15, 73, 160);
+}
+#dropdown {
+    height: 40px;
+    width: 200px;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.add-item-btn {
+    border: none;
+    background-color: rgb(41, 116, 228);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 200px;
 }
